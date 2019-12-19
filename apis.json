@@ -1,0 +1,121 @@
+{
+    "name": "Socrata",
+    "description": "Join more than 1,000 government organizations using Socrata to put their data online, share insights, and make data-driven decisions.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/24-socrata.jpg",
+    "tags": [
+        "data",
+        "deployment",
+        "have api",
+        "have swagger",
+        "management",
+        "portals",
+        "profile",
+        "socrata",
+        "state government"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/socrata\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Socrata Open Data Network Discovery API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/24-socrata.jpg",
+            "humanURL": "http:\/\/socrata.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/socrata-open-data-network-discovery-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/socrata-open-data-network-discovery-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Socrata",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/24-socrata.jpg",
+            "humanURL": "http:\/\/socrata.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/socrata.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/socrata-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.socrata.com\/tech-blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.socrata.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/socrata"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/socrata"
+        },
+        {
+            "type": "Email",
+            "url": "info@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "press@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "latam@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "emea@socrata.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@Socrata.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/socrata"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/24-2019-09-03-17-45-57.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/socrata"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/socrata.com"
+        }
+    ]
+}
