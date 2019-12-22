@@ -1,5 +1,5 @@
 {
-    "id": "23115417d2312dfd557033cd46c39095",
+    "id": "12c35f0e1013419467237c57aee872a4",
     "name": "Socrata Open Data Network Discovery API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2c65887cd34b834956c0ddab35ed8e39",
+            "id": "d5b9df9cebfdf311de4a000fe24bd5ca",
             "name": "Count assets by domain",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1\/domains",
             "description": "Returns each domain and the count of assets owned by that domain. The counts may be restricted according to any of the query parameters described in the Complete Search API, with the exception of the q text search param.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         },
         {
-            "id": "28e4d34460c6725ecb794129689d1f42",
+            "id": "3e473bd92d9237f4d9752aecab936adf",
             "name": "Count assets by tag",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1\/domain_tags",
             "description": "Returns each domain-specific tag and the count of assets having that tag. The counts may be restricted according to any of the query parameters described in the Complete Search API.",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         },
         {
-            "id": "075aab55aad47f7eb609e56f04f7d28f",
+            "id": "d6d258caecdd08438c55fcb89bba913a",
             "name": "Count assets by category",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1\/domain_categories",
             "description": "Returns each domain-specific category and the count of assets having that category. The counts may be restricted according to any of the query parameters described in the Complete Search API.",
@@ -91,11 +91,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         },
         {
-            "id": "35b55ff8328f2504092e076756498106",
+            "id": "32bf88cfa6baa25642ae10afad750ba5",
             "name": "Count assets by facets",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1\/domains\/{search_context}\/facets",
             "description": "Returns each domain-specific category and the count of assets having that category. The counts may be restricted according to any of the query parameters described in the Complete Search API.",
@@ -122,11 +122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         },
         {
-            "id": "fb17561e3fc6e6b8dc2f2517e6ba7c44",
+            "id": "55c9285114c6cf6e1f8ad040fbac78f1",
             "name": "List all assets",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1",
             "description": "This is the main operation for the Socrata Discovery API. It allows you to access and explore all public metadata published on the Socrata platform.",
@@ -279,11 +279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         },
         {
-            "id": "61c5a256a12e284de862f094d0c4f494",
+            "id": "0d7f4e95c9554bb77924ac139e5ccfbb",
             "name": "Autocomplete asset names",
             "url": "http:\/\/api.us.socrata.com\/api\/catalog\/v1\/autocomplete",
             "description": "To improve the catalog search experience, we added an autocomplete API, which returns a list of titles that match the search query. This API supports all the same filtering parameters as the top-level complete search API. The response body has the same shape as the search API, containing 'resultSetSize', 'results', and 'timings' fields at the root of the response object. The 'results' differ however as an array of objects with the following two fields:\nField \tDescription\ntitle \tthe raw title mat",
@@ -317,7 +317,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "23115417d2312dfd557033cd46c39095",
+            "collectionId": "12c35f0e1013419467237c57aee872a4",
             "rawModeData": ""
         }
     ]
