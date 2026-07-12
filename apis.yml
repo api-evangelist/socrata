@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://dev.socrata.com/
 common:
+  - type: DomainSecurity
+    url: security/socrata-domain-security.yml
   - type: Website
     url: https://dev.socrata.com/
   - type: PublicAPIsListing
