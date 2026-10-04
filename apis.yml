@@ -35,11 +35,13 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Open Data
   - Public APIs
+  - Data Catalog
+  - Government
+  - Open Government
 apis:
   - name: Socrata
     description: "Access to Open Data from Governments, Non-profits and NGOs around the world"
     humanURL: https://dev.socrata.com/
-    baseURL: https://dev.socrata.com/
     tags:
       - Open Data
     properties:
