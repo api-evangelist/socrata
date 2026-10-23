@@ -29,8 +29,39 @@ edges:
     builder: 'community (Meltano Hub variant maintainers: meltanolabs)'
   detected_by: sweep-data-integration.py
   first_seen: '2026-10-18'
+- partner_name: Chef Software (chef-supermarket)
+  partner: chef-software
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: chef-supermarket
+  evidence: https://supermarket.chef.io/cookbooks/bastion
+  mirror_of: chef-software/integrations/chef-software-integration-edges.yml
+  apps:
+  - bastion
+  - cronic
+  - dnsmasq-local
+  - openvpn_duo
+  - openvpn_okta
+  - samhain
+  - snoopy
+  - snu-sumologic
+  - snu_awscli
+  - snu_nginx
+  - snu_nginx_fips
+  - snu_python
+  - x2go-client
+  - x2go-server
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: configuration-management content listing (Chef cookbook)
 method: searched
 checked:
 - https://github.com/meltano/hub
+- chef-software/integrations/chef-software-integration-edges.yml
 source:
 - https://github.com/meltano/hub

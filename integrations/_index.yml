@@ -32,3 +32,16 @@
     builder: 'community (Meltano Hub variant maintainers: meltanolabs)'
   status: not-a-workflow
   arazzo: null
+- slug: socrata-chef-software-chef-supermarket
+  label: Chef Software (chef-supermarket)
+  partner: chef-software
+  partner_name: Chef Software (chef-supermarket)
+  category: configuration-management content listing (Chef cookbook)
+  type: marketplace
+  marketplace: chef-supermarket
+  channel: partner-built
+  evidence: https://supermarket.chef.io/cookbooks/bastion
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
